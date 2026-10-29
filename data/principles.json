@@ -1,0 +1,202 @@
+[
+  {
+    "id": 1,
+    "name": "Segmentation",
+    "description": "Divide an object/system into independent parts; make it easy to assemble/disassemble; increase the degree of fragmentation."
+  },
+  {
+    "id": 2,
+    "name": "Taking out (extraction)",
+    "description": "Separate an interfering part or property from an object, or extract the one necessary part/property."
+  },
+  {
+    "id": 3,
+    "name": "Local quality",
+    "description": "Change a uniform structure/property into a non-uniform one; make each part suited to its own local function."
+  },
+  {
+    "id": 4,
+    "name": "Asymmetry",
+    "description": "Replace a symmetrical form with an asymmetrical one; if already asymmetrical, increase the asymmetry."
+  },
+  {
+    "id": 5,
+    "name": "Merging (consolidation)",
+    "description": "Bring closer together, or merge, identical or related objects/operations so they run in parallel or as one."
+  },
+  {
+    "id": 6,
+    "name": "Universality",
+    "description": "Make one part or object perform multiple functions, eliminating the need for other parts."
+  },
+  {
+    "id": 7,
+    "name": "Nesting",
+    "description": "Place one object inside another; that inside a third; and so on (\"Russian doll\")."
+  },
+  {
+    "id": 8,
+    "name": "Anti-weight (counterweight)",
+    "description": "Compensate for an object's weight by merging it with objects that provide lift, or by interaction with the environment (aerodynamic, hydrodynamic, buoyant forces)."
+  },
+  {
+    "id": 9,
+    "name": "Preliminary anti-action",
+    "description": "If an action will have both harmful and useful effects, perform an anti-action in advance to control the harmful effect."
+  },
+  {
+    "id": 10,
+    "name": "Preliminary action",
+    "description": "Perform the required change of an object, in full or in part, before it is needed."
+  },
+  {
+    "id": 11,
+    "name": "Beforehand cushioning (compensation)",
+    "description": "Prepare emergency backup/compensation means in advance to offset the relatively low reliability of an object."
+  },
+  {
+    "id": 12,
+    "name": "Equipotentiality",
+    "description": "Change operating conditions so an object doesn't need to be raised or lowered (eliminate potential-energy transitions)."
+  },
+  {
+    "id": 13,
+    "name": "The other way round (inversion)",
+    "description": "Invert the action; make movable parts fixed and fixed parts movable; turn the object/process upside down."
+  },
+  {
+    "id": 14,
+    "name": "Spheroidality / curvature",
+    "description": "Replace flat surfaces/straight lines/cubic forms with curved, spherical, or rounded ones; use rollers, balls, spirals."
+  },
+  {
+    "id": 15,
+    "name": "Dynamics",
+    "description": "Allow (or design in) characteristics, an object, or a process to change to be optimal at each stage of operation; divide into parts capable of movement relative to each other."
+  },
+  {
+    "id": 16,
+    "name": "Partial or excessive action",
+    "description": "If 100% of an effect is hard to achieve directly, use slightly less or slightly more to simplify the problem."
+  },
+  {
+    "id": 17,
+    "name": "Another dimension",
+    "description": "Move an object/process into two or three dimensions instead of one; use a multi-story arrangement; tilt or reorient it."
+  },
+  {
+    "id": 18,
+    "name": "Mechanical vibration",
+    "description": "Cause an object to oscillate or vibrate; increase frequency (even to ultrasonic); use resonance."
+  },
+  {
+    "id": 19,
+    "name": "Periodic action",
+    "description": "Replace a continuous action with a periodic or pulsed one; if already periodic, change the frequency or pattern."
+  },
+  {
+    "id": 20,
+    "name": "Continuity of useful action",
+    "description": "Carry out work continuously, with all parts of a system operating at full load, eliminating idle/intermediate motion."
+  },
+  {
+    "id": 21,
+    "name": "Skipping (rushing through)",
+    "description": "Conduct a process, or particularly its harmful/hazardous stages, at high speed."
+  },
+  {
+    "id": 22,
+    "name": "Blessing in disguise (convert harm to benefit)",
+    "description": "Use harmful factors/effects to achieve a positive outcome, or eliminate a harmful factor by combining it with another harmful factor."
+  },
+  {
+    "id": 23,
+    "name": "Feedback",
+    "description": "Introduce feedback to monitor and improve a process; if feedback already exists, change its magnitude or timing."
+  },
+  {
+    "id": 24,
+    "name": "Intermediary",
+    "description": "Use an intermediary object/process to carry out an action, or temporarily merge one object with another that's easily removed."
+  },
+  {
+    "id": 25,
+    "name": "Self-service",
+    "description": "Make an object serve itself by performing auxiliary, repair, or maintenance functions; make use of waste resources."
+  },
+  {
+    "id": 26,
+    "name": "Copying",
+    "description": "Use a simple, cheap copy (optical, digital, simulated) instead of an object that is complex, expensive, fragile, or inconvenient to use directly."
+  },
+  {
+    "id": 27,
+    "name": "Cheap short-living objects",
+    "description": "Replace an expensive object with multiple cheap ones, trading off qualities like longevity for cost."
+  },
+  {
+    "id": 28,
+    "name": "Mechanics substitution",
+    "description": "Replace a mechanical means with a sensory one (optical, acoustic, thermal, olfactory); use fields to interact with the object instead."
+  },
+  {
+    "id": 29,
+    "name": "Pneumatics and hydraulics",
+    "description": "Replace solid parts of an object with gas or liquid; use air/water cushions, inflatable, or hydrostatic elements."
+  },
+  {
+    "id": 30,
+    "name": "Flexible shells and thin films",
+    "description": "Replace conventional/rigid structures with flexible shells or thin films; isolate an object using thin flexible membranes."
+  },
+  {
+    "id": 31,
+    "name": "Porous materials",
+    "description": "Make an object porous or add porous elements; if already porous, fill the pores in advance with something useful."
+  },
+  {
+    "id": 32,
+    "name": "Color / optical property changes",
+    "description": "Change the color or transparency of an object or its surroundings to change its perceived or actual properties."
+  },
+  {
+    "id": 33,
+    "name": "Homogeneity",
+    "description": "Make objects that interact with a given object out of the same (or property-matched) material."
+  },
+  {
+    "id": 34,
+    "name": "Discarding and recovering",
+    "description": "Make parts that have finished their function disappear (dissolve, degrade, self-eject) or be restored during operation."
+  },
+  {
+    "id": 35,
+    "name": "Parameter changes",
+    "description": "Change an object's physical/chemical state, concentration, consistency, flexibility, or temperature."
+  },
+  {
+    "id": 36,
+    "name": "Phase transitions",
+    "description": "Use phenomena occurring during a phase transition (volume change, heat absorption/release, etc.)."
+  },
+  {
+    "id": 37,
+    "name": "Thermal expansion",
+    "description": "Use thermal expansion or contraction of a material; combine materials with different expansion coefficients."
+  },
+  {
+    "id": 38,
+    "name": "Strong oxidants (accelerated oxidation)",
+    "description": "Replace normal air/environment with an enriched, ionized, or accelerated-reaction one to speed a process."
+  },
+  {
+    "id": 39,
+    "name": "Inert atmosphere",
+    "description": "Replace a normal environment with an inert one; carry out a process in vacuum."
+  },
+  {
+    "id": 40,
+    "name": "Composite materials",
+    "description": "Replace a homogeneous material with a composite one, combining materials to get properties neither has alone."
+  }
+]

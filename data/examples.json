@@ -1,0 +1,74 @@
+[
+  {
+    "title": "Species/geography expansion (root digital twin)",
+    "if": "we broaden root-behavior modeling beyond 3 Nordic species to more species and soil/climate types",
+    "then": "market reach improves",
+    "but": "calibration cost and data-collection effort rise",
+    "improving": 32, "worsening": 41,
+    "cell": [10, 13, 29, 31],
+    "badCompromise": "Stay at 3 species: deployable, but limited to cities where those species dominate.",
+    "applications": {
+      "10": "Build the shared soil-mechanics/growth engine once; each new species needs only a few parameters.",
+      "13": "Let sales pull calibration: onboard new cities with generic estimates + confidence intervals and use their scans as calibration data.",
+      "29": "Replace rigid per-species models with a parametric model interpolating from shared traits.",
+      "31": "Ship a 'porous' model with conservative defaults for uncalibrated species, filled in as data arrives."
+    }
+  },
+  {
+    "title": "Cross-program oversight vs. stream autonomy",
+    "if": "we apply cross-program oversight across the portfolio",
+    "then": "inter-program dependencies become visible",
+    "but": "local stream autonomy is reduced",
+    "improving": 47, "worsening": 32,
+    "cell": [1, 26, 13, 15],
+    "badCompromise": "Heavy central governance (visibility) or fully independent streams (autonomy).",
+    "applications": {
+      "1": "Split visibility (dependency register) from control (decisions stay local).",
+      "26": "Oversight works from a read-only copy of stream artifacts.",
+      "13": "Streams push their own dependency data on their own cadence.",
+      "15": "Oversight intensity activates only when a cross-stream dependency is detected."
+    }
+  },
+  {
+    "title": "Secure custom app vs. Excel adoption",
+    "if": "IT builds a secure custom application to replace Excel for sensitive data",
+    "then": "security improves and data risk decreases",
+    "but": "the app is too restrictive and users revert to Excel",
+    "improving": 37, "worsening": 32,
+    "cell": [1, 28, 24, 32],
+    "applications": {
+      "1": "Keep a flexible Excel-like front end; segment sensitive storage into a locked backend.",
+      "28": "Enforce security through field-level masking/encryption rather than feature lockout.",
+      "24": "Excel as client, audited connector as intermediary to the secure backend.",
+      "32": "Change visibility (masking/redaction) rather than removing functionality."
+    }
+  },
+  {
+    "title": "Price freeze vs. shortage",
+    "if": "a government freezes prices to curb inflation",
+    "then": "price stability improves",
+    "but": "manufacturer margins collapse, output falls, shortages appear",
+    "improving": 21, "worsening": 44,
+    "cell": [5, 24, 40, 3],
+    "applications": {
+      "5": "Bundle the freeze with producer support (subsidies, input-cost relief).",
+      "24": "Use a buffer fund/guarantee paying the gap between frozen price and sustainable cost.",
+      "40": "Composite policy: freeze retail, let wholesale/inputs adjust, vary by product.",
+      "3": "Differentiate caps by cost structure, producer size or region."
+    }
+  },
+  {
+    "title": "Ball-return device: robust mechanics vs. cost",
+    "if": "the device uses robust mechanics for reliable automatic return",
+    "then": "reliability improves",
+    "but": "manufacturing cost rises (~150 EUR)",
+    "improving": 35, "worsening": 41,
+    "cell": [28, 10, 35, 4],
+    "applications": {
+      "28": "Replace part of the mechanism with a simpler trigger or passive return.",
+      "10": "Build the core module first; pre-sell before a full production run.",
+      "35": "Switch to a gravity/momentum-based principle to cut part count.",
+      "4": "Split into budget and premium variants."
+    }
+  }
+]
